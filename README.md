@@ -1,1 +1,1 @@
-# P_End-to-End-CI-CD-Pipeline-with-Docker-and-AWS-ECS
+# End to End CI CD Pipeline with Docker and AWS ECS
