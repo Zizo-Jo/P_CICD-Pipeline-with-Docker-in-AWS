@@ -6,12 +6,11 @@ on:
 
 env:
   AWS_REGION: us-east-1
-  ECR_REPOSITORY: my-flask-app
-  ECS_SERVICE: my-flask-task-service-djoyoe5k
-  ECS_CLUSTER: my-cluster
-  ECS_TASK_DEFINITION: my-flask-task
-  CONTAINER_NAME: my-flask-container
-
+  ECR_REPOSITORY: my-flask-tf-repo       
+  ECS_SERVICE: my-flask-tf-service       
+  ECS_CLUSTER: my-flask-tf-cluster       
+  ECS_TASK_DEFINITION: my-flask-tf-task  
+  CONTAINER_NAME: my-flask-tf-container  
 jobs:
   deploy:
     name: Deploy
